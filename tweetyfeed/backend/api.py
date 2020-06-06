@@ -4,8 +4,6 @@ from backend.serializers import TweetSerializer
 
 
 class TweetViewSet(viewsets.ModelViewSet):
-    # queryset = Tweet.objects.all()
-
     permission_classes = [
         permissions.IsAuthenticated
     ]
