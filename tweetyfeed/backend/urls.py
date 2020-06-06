@@ -3,6 +3,6 @@ from backend.api import TweetViewSet
 
 
 router = routers.DefaultRouter()
-router.register('api/tweets', TweetViewSet, 'tweets')
+router.register('tweets', TweetViewSet, 'tweets')
 
 urlpatterns = router.urls

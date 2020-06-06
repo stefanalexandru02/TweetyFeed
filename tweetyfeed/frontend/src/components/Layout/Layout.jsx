@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Navbar } from './Navbar.jsx';
+import { Footer } from './Footer.jsx';
 
 export class Layout extends Component {
     static displayName = Layout.name;
@@ -6,7 +8,13 @@ export class Layout extends Component {
     render() {
         return (
             <>
-                {this.props.children}
+                <Navbar />
+                <br />
+                <div className="container mainPage">
+                    {this.props.children}
+                </div>
+                <br />
+                <Footer />
             </>
         );
     }
