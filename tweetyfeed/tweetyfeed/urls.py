@@ -8,5 +8,6 @@ urlpatterns = [
 
     # Add all react paths here
     path('', include('frontend.urls')),
+    path('user/login', include('frontend.urls')),
     path('about', include('frontend.urls'))
 ]

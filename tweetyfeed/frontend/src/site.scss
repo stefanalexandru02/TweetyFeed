@@ -7,3 +7,48 @@
 {
     margin-top: 71px;
 }
+
+.loginCard
+{
+    margin-top: 15px;            
+    
+    .card-header
+    {
+        text-align: center;    
+        font-size: x-large;
+        background-color: #34495e;
+        color: white;
+    }
+
+    .card-body
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+        color:white;
+        background-color: rgba($color: #2c3e50, $alpha: 1);
+
+        input{
+            background-color: transparent;
+            color: rgba($color:white, $alpha: 0.95)
+        }
+    }
+
+    .card-footer
+    {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: #34495e;
+        color: white;
+    }
+}
+
+.btn-success
+{
+    padding: 15px;
+}
+
+.no-outline:focus, .no-outline:active:focus, .no-outline.active:focus,
+.no-outline.focus, .no-outline:active.focus, .no-outline.active.focus {
+  outline: none !important; box-shadow: none !important;
+}

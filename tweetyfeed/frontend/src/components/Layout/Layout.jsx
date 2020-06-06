@@ -8,7 +8,7 @@ export class Layout extends Component {
     render() {
         return (
             <>
-                <Navbar />
+                <Navbar username={this.props.username} />
                 <br />
                 <div className="container mainPage">
                     {this.props.children}
